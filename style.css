@@ -1,6 +1,52 @@
-body{
-    background-color:chartreuse;
-}
-h1{
-    font-family: 'Akaya Telivigala', cursive;
-}
+/*
+Look up: box-shadow, :target, 
+@keyframes ( https://www.youtube.com/watch?v=H1Wop6VItns&ab_channel=dcode )
+body class="cvbody"
+*/
+span{
+    color: #fff;
+ }
+ img {
+     float: right;
+     padding-left: 5px;
+     width: 50%;
+     height: 30%;
+ }
+ .body-margin{
+    margin: 5px;
+ }
+ nav{
+    background-color: peachpuff;
+    font-family: 'Knewave', cursive;
+    text-align: center;
+    
+ }
+ .aa:link{
+    text-decoration: none;
+ }
+ .aa:hover{
+    background-color: rgb(134, 102, 15);
+    transition-duration: 900ms;
+ }
+ .aa{
+    padding: 0px 25px;
+    display: inline-block;
+ }
+ footer{
+    background-color: peachpuff;
+    font-family: 'Knewave', cursive;
+    text-align: center;
+    margin-top: auto;
+ }
+ body{
+    background-color: lightblue;
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
+ }
+ h2{
+    font-family: 'Oswald', sans-serif;
+ }
+ p{
+    font-family: 'Playfair Display', sans-serif;
+ }
