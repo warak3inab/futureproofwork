@@ -50,3 +50,12 @@ span{
  p{
     font-family: 'Playfair Display', sans-serif;
  }
+.test-p::first-letter{
+   color: rebeccapurple;
+   text-transform: uppercase;
+   font-size: x-large;
+}
+.test-ul:hover{
+   list-style-type: none;
+   background-color: aliceblue;
+}
